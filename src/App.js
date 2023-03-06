@@ -14,10 +14,7 @@ function App() {
     path: '/',
     element: <Main></Main>,
     children:[
-      {
-        path:'/',
-        element: <Header></Header>
-      },
+
       {
         path:'/home',
         element:<Home></Home>
