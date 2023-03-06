@@ -3,7 +3,7 @@ import logo from '../../images/multi-layers-gray-blue-dark-texture-3d-papercut-l
 const Header = () => {
    return (
       <div className='m-5'>
-         <div className=' h-96 w-full bg-cover bg-center relative'>
+         <div className=' h-70 w-full bg-cover bg-center relative'>
             <img src={logo} alt='logo' className='w-full h-full object-cover absolute mix-blend-overlay rounded'/>
             <div className='p-24'>
             <h2 className='text-slate-100 text-6xl font-bold'>This is the Headline</h2>
