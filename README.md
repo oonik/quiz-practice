@@ -69,7 +69,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+<!-- Web site name: Quiz Practice -->
 
-<!-- Use react router  -->
-<!-- use daynamik router and load data -->
-<!-- create chart -->
+<!-- Description  -->
+<!--1. Use react router  -->
+<!--2. use daynamik router and load data -->
+<!--3. create chart -->

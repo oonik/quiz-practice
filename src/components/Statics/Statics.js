@@ -8,7 +8,7 @@ const Statics = () => {
    console.log(data)
     return (
         <div className='items-center'>
-           <LineChart width={600} height={400} data={data}>
+           <LineChart width={500} height={400} data={data}>
            <Line type="monotone" dataKey="total" stroke="#8884d8"></Line>
            <XAxis dataKey="name"></XAxis>
            <YAxis></YAxis>
