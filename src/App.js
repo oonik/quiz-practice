@@ -33,7 +33,7 @@ function App() {
       },
       {
        path:'/statics',
-       loader: ()=>fetch('https://openapi.programming-hero.com/api/total'),
+       loader: ()=>fetch('https://openapi.programming-hero.com/api/quiz'),
        element:<Statics></Statics>
       },
       {
