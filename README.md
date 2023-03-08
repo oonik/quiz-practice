@@ -75,3 +75,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <!--1. Use react router  -->
 <!--2. use daynamik router and load data -->
 <!--3. create chart -->
+
+<!-- live site link: https://velvety-pie-cc37ce.netlify.app/ -->
