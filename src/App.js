@@ -8,6 +8,7 @@ import Topic from './components/Topic/Topic';
 import Blog from './components/Blog/Blog';
 import About from './components/About/About';
 import Questions from './components/Questions/Questions';
+import Error from './components/Error/Error';
 
 function App() {
   const router = createBrowserRouter([
@@ -42,7 +43,7 @@ function App() {
       },
       {
         path: '*',
-        element: <div>This Route Not Found 404</div>
+        element: <Error></Error>
       }
     ]
    }

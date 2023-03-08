@@ -1,19 +1,33 @@
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { AiFillEye } from "react-icons/ai";
 
 const Question = ({question}) => {
       // console.log(question)
       const { options, correctAnswer} = question;
      const handleRightAns=(option)=>{
       if(option === correctAnswer){
-         alert('right')
+         toast.success("Correct Answer",{
+            position: "top-center",
+            autoClose: 200,
+         })
       }
       else{
-         alert('wrong')
+         toast.warn('Wrong Answer', {
+            position: "top-center",
+            autoClose: 200,
+         })
       }
+     }
+     const eyeIcon = () =>{
+      toast.success(correctAnswer, {
+         position: "top-center",
+         autoClose: 1000,
+      })
      }
     return (
         <div  className='bg-slate-100 mt-2 p-10'>
-            
+            <p className='text-2xl text-cyan-500' onClick={eyeIcon}> <AiFillEye></AiFillEye></p>
             <div className='text-2xl text-cyan-500 font-semibold mb-3'>
             <p>{question.question}</p>
             </div>
@@ -29,6 +43,7 @@ const Question = ({question}) => {
                      })
                     }
                  </div>
+                 <ToastContainer></ToastContainer>
             </div>
     );
 };
