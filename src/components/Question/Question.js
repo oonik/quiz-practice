@@ -3,7 +3,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { AiFillEye } from "react-icons/ai";
 
 const Question = ({question}) => {
-      // console.log(question)
+      //  console.log(question)
       const { options, correctAnswer} = question;
      const handleRightAns=(option)=>{
       if(option === correctAnswer){

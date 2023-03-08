@@ -9,6 +9,7 @@ import Blog from './components/Blog/Blog';
 import About from './components/About/About';
 import Questions from './components/Questions/Questions';
 import Error from './components/Error/Error';
+import Statics from './components/Statics/Statics';
 
 function App() {
   const router = createBrowserRouter([
@@ -29,6 +30,11 @@ function App() {
       {
         path:'/blog',
         element: <Blog></Blog>
+      },
+      {
+       path:'/statics',
+       loader: ()=>fetch('https://openapi.programming-hero.com/api/total'),
+       element:<Statics></Statics>
       },
       {
         path:'/about',
